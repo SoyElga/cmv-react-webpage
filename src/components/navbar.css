@@ -1,0 +1,52 @@
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-brand.navbar-toggler {
+    border: 0;
+}
+
+.navbar-logo {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-item {
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 130px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navlink-bar {
+    width: 90%;
+    height: 3px;
+    transition: all 0.3s ease-out;
+}
+
+.nav-item:hover .navlink-bar{
+    width: 65%;
+}
+
+.navlink-bar.item1{
+    background-color: #29BF12;
+}
+
+.navlink-bar.item2 {
+    background-color: #EC7505;
+}
+
+.navlink-bar.item3 {
+    background-color: #DE6C83 ;
+}
+
