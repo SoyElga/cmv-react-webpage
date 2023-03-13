@@ -48,9 +48,6 @@ function inicio() {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
     </div>
   )
 }

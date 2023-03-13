@@ -1,0 +1,80 @@
+.text-banner {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 20px;
+}
+
+.text-banner h1 {
+    font-weight: 800;
+    font-size: 60px;
+    color: #EC7505;
+    text-shadow: 0px 2px 1px rgb(201, 201, 201);
+}
+
+.text-banner  p {
+    font-size: 24px;
+    font-weight: 50;
+    width: 75vw;
+    text-align: center;
+    text-shadow: 0px 2px 1px rgb(225, 225, 225);
+}
+
+.carrousel-section {
+    margin-top: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrousel-container {
+    width: 60vw;
+}
+
+.videos-section {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    width: 100vw;
+}
+
+.videos-section .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.videos-section .title h3 {
+    color: #EC7505;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.videos-section .title p {
+    width: 50%;
+    font-size: 20px;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 100vw;
+    height: calc(100vw * 0.3 * 0.5625);
+}
+
+.videos iframe {
+    width: 30%;
+    height: 100%;
+}
