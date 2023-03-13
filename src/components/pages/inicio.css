@@ -1,0 +1,175 @@
+.page-title {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+    align-items: center;
+    gap: 20px;
+}
+
+.page-title h1 {
+    font-weight: 800;
+    font-size: 60px;
+    width: 70vw;
+    text-align: center;
+    color: #EC7505;
+    text-shadow: 0px 2px 1px rgb(201, 201, 201);
+}
+
+.page-title p {
+    font-size: 24px;
+    font-weight: 50;
+    width: 50vw;
+    text-align: center;
+    text-shadow: 0px 2px 1px rgb(225, 225, 225);
+}
+
+.objective {
+    display: flex;
+    margin-top: 70px;
+    /* background-color: aqua; */
+    width: 100vw;
+    height: auto;
+    /* margin-bottom: 50px; */
+}
+
+.objective .text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.objective .text h3,
+.join .join-form h3{
+    color: #EC7505;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.objective .text p {
+    width: 70%;
+    font-size: 20px;
+}
+
+.objective .img-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.objective img{
+    width: 70%;
+    height: auto;
+    border: 2px solid #EC7505;
+    border-radius: 20px;
+}
+
+.join {
+    margin-top: 100px;
+    width: 100vw;
+    display: flex;
+}
+
+.join .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join .header p {
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 350;
+}
+
+.join .join-form {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    gap: 30px;
+}
+
+.join .join-form form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.join .join-form form input[type=text],
+.join .join-form form input[type=email],
+.join .join-form form textarea {
+    padding: 3px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 100%;
+    transition: width 0.4s ease-in-out;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid #EC7505 ;
+    border-radius: 0;
+    color: #555;
+}
+
+.join .join-form form input[type=text]:focus,
+.join .join-form form input[type=email]:focus {
+    width: 80%;
+    outline: none;
+  }
+
+.join .join-form form textarea {
+    padding-top: 10px;
+    border: 2px solid #EC7505;
+    border-radius: 10px;
+    height: 200px;
+    text-align-last: auto;
+    background-color: rgba(0, 0, 0, 0);
+    resize: none;
+  }
+  
+.join .join-form form textarea:focus {
+    outline: none;
+  }
+
+.join .img-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .join img {
+    width: 80%;
+    height: auto;
+    border: 2px solid #EC7505;
+    border-radius: 20px;
+  }
+
+.join .join-form form button.btn-send {
+    background-color: #EC7505;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+.join .join-form form button.btn-send:hover {
+    background-color: #db6e07;
+}
+

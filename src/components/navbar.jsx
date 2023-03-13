@@ -8,13 +8,13 @@ import {
 import Logo from '../assets/logo_cmv.png';
 import './navbar.css'
 
-import Inicio from './inicio';
-import Nosotros from './nosotros';
-import Media from './media';
-import Unete from './unete';
-import Testimonios from './testimonios';
-import Juegamex from './juegamex';
-import Contactanos from './contactanos';
+import Inicio from './pages/inicio';
+import Nosotros from './pages/nosotros';
+// import Media from './pages/media';
+// import Unete from './pages/unete';
+// import Testimonios from './pages/testimonios';
+// import Juegamex from './pages/juegamex';
+import Contactanos from './pages/contactanos';
 
 export class navbar extends Component {
   render() {
@@ -33,32 +33,32 @@ export class navbar extends Component {
       <ul className="navbar-nav">
         <li className="nav-item">
         <Link className="nav-link" to={'/nosotros'}>NOSOTROS</Link>
-          <div className='navlink-bar item1'></div>
+          <div className='navlink-bar item2'></div>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
         <Link className="nav-link" to={'/media'}>MEDIA</Link>
           <div className='navlink-bar item2'></div>
         </li>
         <li className="nav-item">
         <Link className="nav-link" to={'/unete'}>ÚNETE</Link>
           <div className='navlink-bar item3'></div>
-        </li>
+        </li> */}
         <li className="nav-item">
         <Link className="nav-link" to={'/'}>
         <img className="navbar-logo" src={Logo} alt="Logo" />
         </Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link className="nav-link" to={'/testimonios'}>TESTIMONIOS</Link>
           <div className='navlink-bar item3'></div>
         </li>
         <li className="nav-item">
         <Link className="nav-link" to={'/juegamex'}>JUEGAMEX</Link>
           <div className='navlink-bar item2'></div>
-        </li>
+        </li> */}
         <li className="nav-item">
         <Link className="nav-link" to={'/contactanos'}>CONTÁCTANOS</Link>
-          <div className='navlink-bar item1'></div>
+          <div className='navlink-bar item2'></div>
         </li>
       </ul>
     </div>
@@ -69,10 +69,10 @@ export class navbar extends Component {
       <Routes>
           <Route path="/" element={<Inicio />}/>
           <Route path="/nosotros" element={<Nosotros />}/>
-          <Route path="/media" element={<Media />}/>
+          {/* <Route path="/media" element={<Media />}/>
           <Route path="/unete" element={<Unete />}/>
           <Route path="/testimonios" element={<Testimonios />}/>
-          <Route path="/juegamex" element={<Juegamex />}/>
+          <Route path="/juegamex" element={<Juegamex />}/> */}
           <Route path="/contactanos" element={<Contactanos />}/>
         </Routes>
       </div>
