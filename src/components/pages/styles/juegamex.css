@@ -1,0 +1,93 @@
+.objective-mision {
+    margin-top: 50px;
+    display: flex;
+    width: 100vw;
+    gap: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.objective-mision .juegamex-logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.objective-mision .juegamex-logo img {
+    width: 60%;
+    height: auto;
+
+}
+
+.objective-mision-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    width: 50%;
+}
+
+.objective-mision .objective,
+.objective-mision .mision {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.objective h3,
+.mision h3{
+    color: #EC7505;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.objective p,
+.mision p {
+    font-size: 20px;
+}
+
+p.coming-soon {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+
+.carousel-games-container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 15px;
+}
+.carousel-games-container h3 {
+    color: #EC7505;
+    font-size: 50px;
+    font-weight: 700;
+    /* text-shadow: 2px 2px 2px rgb(200, 200, 200); */
+}
+.carousel-games-container .carousel {
+    width: 70%;
+}
+
+.carousel-games-container .carousel img {
+    width: 100%;
+    height: calc(100vw * 0.7 * 0.5625);
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    text-shadow:  0px 0px 10px black;
+}
+
+.carousel-caption h5 {
+    font-size: 32px;
+    font-weight: 800;
+}

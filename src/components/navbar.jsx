@@ -13,8 +13,8 @@ import Nosotros from './pages/nosotros';
 // import Media from './pages/media';
 // import Unete from './pages/unete';
 // import Testimonios from './pages/testimonios';
-// import Juegamex from './pages/juegamex';
-import Contactanos from './pages/contactanos';
+import Juegamex from './pages/juegamex';
+// import Contactanos from './pages/contactanos';
 
 export class navbar extends Component {
   render() {
@@ -51,15 +51,15 @@ export class navbar extends Component {
         {/* <li className="nav-item">
           <Link className="nav-link" to={'/testimonios'}>TESTIMONIOS</Link>
           <div className='navlink-bar item3'></div>
-        </li>
+        </li>*/}
         <li className="nav-item">
         <Link className="nav-link" to={'/juegamex'}>JUEGAMEX</Link>
           <div className='navlink-bar item2'></div>
-        </li> */}
-        <li className="nav-item">
+        </li> 
+        {/* <li className="nav-item">
         <Link className="nav-link" to={'/contactanos'}>CONTÁCTANOS</Link>
-          <div className='navlink-bar item2'></div>
-        </li>
+          <div className='navlink-bar item2'></div> 
+        </li>*/}
       </ul>
     </div>
   </div>
@@ -72,8 +72,8 @@ export class navbar extends Component {
           {/* <Route path="/media" element={<Media />}/>
           <Route path="/unete" element={<Unete />}/>
           <Route path="/testimonios" element={<Testimonios />}/>
-          <Route path="/juegamex" element={<Juegamex />}/> */}
-          <Route path="/contactanos" element={<Contactanos />}/>
+          <Route path="/contactanos" element={<Contactanos />}/>*/}
+          <Route path="/juegamex" element={<Juegamex />}/> 
         </Routes>
       </div>
       </Router>

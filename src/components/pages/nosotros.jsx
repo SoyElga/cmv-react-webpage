@@ -1,5 +1,5 @@
 import React from 'react'
-import './nosotros.css'
+import './styles/nosotros.css'
 
 //carrousel images
 import slide1 from '../assets/nosotros/slides_carrousel/slide01.webp';
